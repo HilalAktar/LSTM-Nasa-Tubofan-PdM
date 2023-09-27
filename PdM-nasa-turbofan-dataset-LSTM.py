@@ -24,9 +24,9 @@ columns = ["id", "cycle", "op1", "op2", "op3", "sensor1", "sensor2", "sensor3", 
            "sensor20", "sensor21", "sensor22", "sensor23"]
 
 # Dosya yollarını güncelle
-train_path = r'C:\Users\isilh\OneDrive\Masaüstü\github_projeler\LSTM-Nasa-turbofan-dataset\train_FD001.txt'
-test_path = r'C:\Users\isilh\OneDrive\Masaüstü\github_projeler\LSTM-Nasa-turbofan-dataset\test_FD001.txt'
-test_results_path = r'C:\Users\isilh\OneDrive\Masaüstü\github_projeler\LSTM-Nasa-turbofan-dataset\RUL_FD001.txt'
+train_path = r'train_FD001.txt'
+test_path = r'test_FD001.txt'
+test_results_path = r'RUL_FD001.txt'
 
 # Verileri okutrain = pd.read_csv(train_path, sep=" ", names=columns)
 train= pd.read_csv(train_path, sep=" ", names=columns)
